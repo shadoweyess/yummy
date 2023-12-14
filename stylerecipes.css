@@ -1,0 +1,82 @@
+.main{
+    padding: 0;
+    margin: 0;
+    background-color: #f5eade;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.dish-container{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+  
+   
+}
+.dish-all{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.dish-img{
+    margin-bottom: -5px;
+    padding: 0;
+}
+.dish-img>img{
+    width: 800px;
+    height: 800px;
+}
+.cooking-time{
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+
+   
+}
+.how-many>img,
+.clock>img,
+.fav>img{
+    width: 40px;
+}
+.fav>img{
+    cursor: pointer;
+}
+.how-many,
+.clock,
+.fav{
+    align-items: center;
+    display: flex;
+    margin-right: 1em;
+}
+
+.dish-name{
+    display: flex;
+    justify-content: center;
+    
+}
+.dish-name>h1{
+    font-size: 2rem;
+    text-decoration: underline 4px dotted var(--orange);
+
+}
+.dish-ingridients{
+    padding: 0 2em;
+    border-right: 2px solid var(--orange);
+}
+
+.dish-steps{
+    margin: 0 2em;
+    
+}
+
+.dish-steps ol>li{
+    padding: 0.5em 0 0 1em;
+}
+
+.dish-steps>h3{
+    text-align: end;
+    text-decoration: underline 3px dotted var(--orange);
+
+}
